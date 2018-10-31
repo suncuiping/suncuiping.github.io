@@ -283,19 +283,17 @@ body {
   border-radius: 3em;
 }
 
-/* .iconMusic{
+.iconMusic{
+  position: fixed;
   left: 5%;
   bottom: 4%;
-} */
-.iconPre{
-  display: inline-block;
-  margin-left: 0%;
-  /* font-size: 3em; */
+  flex-direction: row;
+}
+.iconPre span{
+  font-size: 3em;
   color: #ff0080;
 }
-.iconNext{
-  display: inline-block;
-  margin-left: 80%;
-  /* font-size: 3em; */
+.iconNext span{
+  font-size: 3em;
   color: #ff0080;
 }
